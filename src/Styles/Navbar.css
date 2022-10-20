@@ -1,0 +1,11 @@
+.zurinav {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: white;
+}
+
+.zurilink {
+  font-size: x-large;
+}
