@@ -40,14 +40,14 @@ function Home() {
 <div><h3> <BsFillJournalBookmarkFill size="30px" color='red' /> Access to free Books</h3>
 <p>Books and  writing to help make your learning smooth</p>
 </div>
-<div className='imgdiv2'><img style={{borderRadius:"15px", width:"500px"}} src={hfree02} alt="books" /></div>
+<div className='imgdiv2'><img style={{borderRadius:"15px"}} src={hfree02} alt="books" /></div>
 </div>
 
 <div className='expt-03'>
 <div><h3> <MdOutlineWork size="30px" color='red' /> Job Opportunities</h3>
 <p>Open to opportunities to learn and earn like never before</p>
 </div>
-<div className='imgdiv3'> <img style={{borderRadius:"15px", width:"500px"}} src={free03} alt="training" /></div>
+<div className='imgdiv3'> <img style={{borderRadius:"15px"}} src={free03} alt="training" /></div>
 </div>
       </div>
       <div className='body2'>

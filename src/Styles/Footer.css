@@ -15,3 +15,21 @@
 .foot03 {
   padding-right: 10px;
 }
+
+@media screen and (max-width: 900px) {
+  .zuri-foot {
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .zuri-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+}
