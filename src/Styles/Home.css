@@ -61,9 +61,12 @@
     align-items: center;
   }
 
-  .imgdiv2 img,
-  .imgdiv3 img,
   img {
-    width: 400px;
+    width: 300px;
+  }
+
+  .imgdiv2 img,
+  .imgdiv3 img {
+    width: 300px;
   }
 }
