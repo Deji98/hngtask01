@@ -1,6 +1,8 @@
 import React from 'react'
-import {FaLink} from 'react-icons/fa'
+import NavLinks from './NavLinks'
+import MobileLinks from './MobileLinks'
 import { Link } from 'react-router-dom'
+import {FaLink} from 'react-icons/fa'
 import '../Styles/Navbar.css'
 
 
@@ -11,9 +13,20 @@ import '../Styles/Navbar.css'
 
 function Navbar() {
   return (
-    <div>
-    
     <div className='zurinav'>
+        <div className='zurilink'>
+    <Link style={{textDecoration:"none", color:"red"}} to={'/'}>ZURI.<FaLink/> </Link>
+    
+    </div>
+    <div className="navt">
+    <NavLinks />
+    </div>
+    <div className="navm">
+    <MobileLinks />
+    </div>
+   
+    
+    {/* <div className='zurinav'>
     <div className='zurilink'>
     <Link style={{textDecoration:"none", color:"red"}} to={'/'}>ZURI.<FaLink/> </Link>
     
@@ -33,7 +46,7 @@ function Navbar() {
 
 
 
-    </div>
+    </div> */}
 
 
     </div>

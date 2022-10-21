@@ -9,3 +9,37 @@
 .zurilink {
   font-size: x-large;
 }
+
+.m-zurinav {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 30px;
+  background-color: white;
+}
+
+.n-zurinav {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding-right: 40px;
+  gap: 100px;
+  background-color: white;
+}
+
+.navm {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .navt {
+    display: none;
+  }
+
+  .navm {
+    display: flex;
+  }
+}
