@@ -6,10 +6,11 @@ import {BsFacebook} from "react-icons/bs"
 import {AiFillTwitterCircle} from "react-icons/ai"
 import {AiFillInstagram} from "react-icons/ai"
 import {AiFillLinkedin} from "react-icons/ai"
+import "../index.css"
 
 function Footer() {
   return (
-    <div>
+    <div className='footer'>
     <div className='zuri-foot'>
     <div className='foot01'>
     <div className='zuri-lg'>
